@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
         User::create([
             'username' => 'freeUser',
             'email' => 'freeUser@eva.com',
-                'password' => Hash::make('Password123456'),
+            'password' => Hash::make('Password123456'),
             'account_type' => 1
         ]);
 
